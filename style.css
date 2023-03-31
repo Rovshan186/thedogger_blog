@@ -1,0 +1,411 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 40px 0;
+}
+#carefor .textbox h1 {
+  margin: 0 0 10px;
+  font-weight: 700;
+  font-size: 70px;
+}
+#carefor .textbox h4 {
+  color: #d6cdcd;
+  font-size: 24px;
+}
+#carefor .imgbox {
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox h1 {
+    font-size: 30px;
+  }
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 50px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 34px;
+}
+#welcome .textbox h3 {
+  color: #aab8b8;
+  margin: 20px 0 40px;
+  font-size: 20px;
+}
+#welcome .textbox h2, #welcome .textbox h6 {
+  margin: 15px 0;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #8fd8c8;
+  color: white;
+}
+#welcome .textbox .icon {
+  color: #5dc1ce;
+}
+#welcome .textbox .icon i {
+  font-size: 25px;
+}
+#welcome .wid {
+  width: 500px;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  #welcome .textbox {
+    padding: 30px;
+  }
+  #welcome .imgbox {
+    margin: 30px;
+  }
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#aboutus .textbox h2, #aboutus .textbox p {
+  font-weight: 100;
+  color: #bbb2a1;
+  font-size: 20px;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #bbb2a1;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox .icon {
+  padding: 0 10px 0 0;
+  color: #60cac1;
+}
+#aboutus .textbox h4 {
+  font-size: 20px;
+  color: #797474;
+}
+#aboutus .bigicon {
+  color: #5774b4;
+}
+#aboutus .bigicon i {
+  font-size: 20px;
+  margin: 0 0 25px 25px;
+}
+#aboutus .imgbox {
+  width: 500px;
+}
+@media screen and (max-width: 576px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .textbox h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .imgbox {
+    margin: 20px;
+  }
+}
+
+#ourtrainers {
+  padding: 60px 0;
+}
+#ourtrainers h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-weight: 300;
+  font-size: 20px;
+  color: #a7a7a7;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 10px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-weight: 100;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  margin: 0 10px;
+  background-color: #afacac;
+  border-radius: 50px;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -7px;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+#ourtrainers .bigicon {
+  color: #8fc7d1;
+}
+#ourtrainers .bigicon i {
+  margin: 0 0 25px;
+  font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+  #ourtrainers .box {
+    margin: 10px;
+  }
+  #ourtrainers .box .textbox {
+    padding: 5px;
+  }
+  #ourtrainers .box ul li {
+    padding: 12px;
+    font-size: 22px;
+  }
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+  text-align: center;
+}
+#pricingtable h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#pricingtable h5 {
+  font-weight: 200;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 40px 0;
+}
+#pricingtable .box {
+  color: #e7e0e0;
+  height: 550px;
+  width: 450px;
+  background: #57ad8c;
+  padding: 30px 0;
+}
+#pricingtable .box h2, #pricingtable .box h3 {
+  font-size: 25px;
+  margin: 20px 0 10px;
+}
+#pricingtable .box h4 {
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 20px;
+  text-align: left;
+}
+#pricingtable .box li {
+  display: flex;
+  align-items: center;
+}
+#pricingtable .box li h4 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+#pricingtable .box .btn {
+  padding: 0 50px;
+  margin: 30px 0;
+  border-radius: 30px;
+  background-color: #073e5e;
+  color: #578bce;
+}
+#pricingtable .PREMIUM-color {
+  background-color: #218ac7;
+}
+#pricingtable .icon {
+  font-size: 20px;
+  color: #a2d3d0;
+}
+@media screen and (max-width: 576px) {
+  #pricingtable .box {
+    padding: 14px;
+    margin: 22px;
+  }
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 500px;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 30px;
+  line-height: 1.4;
+}
+#questions .textbox {
+  padding: 0 60px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 20px;
+  margin: 0 0 0 10px;
+  color: #887c7c;
+}
+#questions .textbox .minibox {
+  margin: 20px 0 0;
+}
+#questions .textbox .minibox h2 {
+  margin: 0 0 0 10px;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 20px 0 0;
+  color: #a7a5a5;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .icon {
+  color: #64c796;
+}
+#questions .icon i {
+  font-size: 20px;
+}
+#questions .bigicon i {
+  font-size: 24px;
+}
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 10px;
+  }
+  #questions .imgbox {
+    margin: 50px;
+  }
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .box .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .box .textbox h2 {
+  font-size: 20px;
+}
+#doggerblog .box .textbox h4 {
+  font-size: 15px;
+  color: #c2bfbf;
+}
+#doggerblog .box .textbox p {
+  font-size: 15px;
+  color: #808080;
+}
+#doggerblog .box .textbox p, #doggerblog .box .textbox h4 {
+  margin: 20px 0 0;
+}
+#doggerblog .wid {
+  width: 550px;
+}
+#doggerblog .icon {
+  color: #94e0c9;
+}
+#doggerblog .icon i {
+  margin: 0 0 20px;
+  font-size: 30px;
+}
+@media screen and (max-width: 992px) {
+  #doggerblog .box {
+    margin: 30px;
+  }
+}
+
+#ourservices {
+  padding: 40px 0;
+}
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #f1eded;
+  margin: 30px 0;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  color: #afaaaa;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}
+#ourservices .bigicon {
+  color: #5bb88c;
+}
+#ourservices .bigicon i {
+  font-size: 30px;
+  margin: 0 0 20px;
+}
+@media screen and (max-width: 768px) {
+  #ourservices .textbox {
+    padding: 5px;
+  }
+  #ourservices .textbox h3 {
+    margin: 20px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
